@@ -1,4 +1,6 @@
-import Logo from '../assets/logo.svg'
+import styles from './index.module.scss'
+import Logo from '../../assets/logo.svg'
+import EmailFooter from '../../assets/email-footer.svg'
 
 const Footer = () => {
     return(
@@ -14,7 +16,7 @@ const Footer = () => {
             © 2021 Ratepunk. All Rights Reserved.
           </p>
         </div>
-        <div className="links">
+        <div className={styles.links}>
           <h3>Quick links</h3>
           <ul>
             <li><a href="#">Price Comparison</a></li>
@@ -25,11 +27,12 @@ const Footer = () => {
           </ul>
         </div>
         <div className="contacts">
-          <div>
+          <div className="contacts__email">
             <h3>Contact</h3>
+            <EmailFooter />
             <p>hi@ratepunk.com</p>
           </div>
-          <div>
+          <div className={styles.contacts__social}>
             <h3>Social</h3>
             <ul>
               <li><a href="#">img</a></li>

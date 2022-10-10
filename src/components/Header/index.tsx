@@ -1,8 +1,9 @@
-import Logo from '../assets/logo.svg'
+import styles from './index.module.scss'
+import Logo from '../../assets/logo.svg'
 
 const Header = () => {
     return (
-        <header>
+        <header className={styles.container}>
             <Logo />
             <nav>
                 <ul>
