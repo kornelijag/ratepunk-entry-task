@@ -4,8 +4,8 @@ import EmailFooter from '../../assets/email-footer.svg'
 
 const Footer = () => {
     return(
-        <footer>
-        <div className="about">
+        <footer className={styles.container}>
+        <div className={styles.about}>
           <Logo />
           <p>Ratepunk compares hotel room prices across the major online
             travel agencies. When you search for a room, Ratepunk extension

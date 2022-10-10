@@ -1,9 +1,19 @@
 .container {
 
-  .steps {
-    li {
-      list-style: none;
-      display: flex;
+  li {
+    list-style: none;
+    display: flex;
+
+    .step {
+      text-transform: uppercase;
+      color: #4EB3E3;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-family: 'Caveat Brush', cursive;
+      text-transform: uppercase;
     }
   }
 }
+
