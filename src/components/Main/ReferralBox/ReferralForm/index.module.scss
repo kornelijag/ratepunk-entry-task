@@ -1,0 +1,35 @@
+form {
+
+  .error {
+    color: #ED6F82;
+    font-size: 12px;
+  }
+
+  .textfield {
+    width: 416px;
+    height: 64px;
+    background-color: white;
+    border: 1px solid #1F343E;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    padding-left: 20px;
+
+    &::placeholder {
+      color: #6D7A80;
+      font-size: 20px;
+      padding-left: 20px;
+    }
+  }
+
+  .button {
+    border: 1px solid #1F343E;
+    background-color: #4EB3E3;
+    color: #FFFFFF;
+    width: 416px;
+    height: 64px;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+
+}

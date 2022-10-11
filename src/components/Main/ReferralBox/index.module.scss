@@ -3,13 +3,26 @@
     left: 400px;
     width: 544px;
     height: 797px;
-    background: #F8F4F9 0% 0% no-repeat padding-box;
+    background: #F8F4F9;
     border: 1px solid #1F343E;
     border-radius: 16px;
-    opacity: 1;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 64px;
 
     h1 {
         font-family: 'Caveat Brush', cursive;
         text-transform: uppercase;
+        font-size: 48px;
+    }
+    p.paragraph {
+        font-size: 20px;
+        margin-top: 32px;
+        margin-bottom: 64px;
+    }
+
+    p.postscript {
+        color: #6D7A80;
+        margin-top: 6em;
     }
 }

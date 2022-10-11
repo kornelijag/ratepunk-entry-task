@@ -9,14 +9,14 @@ const ReferralSteps = () => {
             <ol>
                 <li>
                     <Invite />
-                    <div>
+                    <div className={styles.step1}>
                         <p className={styles.step}>Step 1</p>
                         <h2>Invite friends</h2>
                         <p>Refer friends with your unique referral link.</p>
                     </div>
                 </li>
                 <li>
-                    <div>
+                    <div className={styles.step2}>
                         <p className={styles.step}>Step 2</p>
                         <h2>Collect coins</h2>
                         <p>Get 1 coin for each friend that installs our extension
@@ -27,7 +27,7 @@ const ReferralSteps = () => {
                 </li>
                 <li>
                     <Voucher />
-                    <div>
+                    <div className={styles.step3}>
                         <p className={styles.step}>Step 3</p>
                         <h2>Get voucher</h2>
                         <p>Redeem for a $20 hotel booking voucher once you collect

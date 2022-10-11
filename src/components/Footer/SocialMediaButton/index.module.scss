@@ -1,0 +1,17 @@
+.btn {
+  background-color: #4EB3E3;
+  border: 1px solid #1F343E;
+  border-radius: 8px;
+  color: #FFFFFF;
+  height: 32px;
+  width: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  *{
+    width: 16px;
+    height: 16px;
+  }
+}

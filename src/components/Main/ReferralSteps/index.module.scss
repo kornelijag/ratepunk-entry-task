@@ -1,13 +1,29 @@
 .container {
+  width: 500px;
+  height: 669px;
 
   li {
     list-style: none;
     display: flex;
 
+    .step1, .step3 {
+      margin-left: 56px;
+    }
+
+    .step2 {
+      margin-right: 56px;
+    }
+
+    .step1, .step2, .step3 {
+      width: 256px;
+    }
+
     .step {
       text-transform: uppercase;
       color: #4EB3E3;
       font-weight: bold;
+      letter-spacing: 1.6px;
+      font-size: 20px;
     }
 
     h2 {
